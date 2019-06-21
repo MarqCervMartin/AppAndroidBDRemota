@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/inicio"
+            android:title="Inicio" />
+        <item android:title="Registros">
+            <menu>
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/anadir"
+                    android:title="Usuarios" />
+
+                <item
+                    android:id="@+id/nav_manage"
+                    android:icon="@drawable/aproducto"
+                    android:title="Productos" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Consultas">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/bproducto"
+                android:title="Productos" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/buscar"
+                android:title="Usuarios" />
+        </menu>
+    </item>
+
+</menu>
